@@ -11,6 +11,7 @@ namespace FYPZ
     {
         public static void Main(string[] args)
         {
+            var hello = "Hello World";
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
